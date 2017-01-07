@@ -27,24 +27,28 @@ $(function () {
             name: 'Expertise',
             colorByPoint: true,
             data: [{
-                name: 'Python',
-                y: 40,
+                name: 'Python Frameworks',
+                y: 30,
                 drilldown: 'Python'
-            }, {
+            },{
+                name: 'Analytics/AI/ML',
+                y: 20,
+                drilldown: 'Analytics/AI/ML'
+            },{
                 name: 'Javascript',
-                y: 25,
+                y: 20,
                 drilldown: 'Javascript'
             }, {
                 name: 'HTML',
-                y: 10,
+                y: 5,
                 drilldown: null
             }, {
                 name: 'CSS',
-                y: 10,
+                y: 5,
                             drilldown: null
             },{
                 name: 'Databases',
-                y: 25,
+                y: 20,
                             drilldown: 'Databases'
             },{
                 name: 'Misc',
@@ -60,7 +64,17 @@ $(function () {
                     ['Django', 60],
                     ['Flask', 40]
                 ]
-            }, {
+            },{
+                name: 'Analytics/AI/ML',
+                id: 'Analytics/AI/ML',
+                data: [
+                    ['Octave', 20],
+                    ['Numpy', 15],
+                    ['Scipy', 15],
+                    ['NLTK', 30],
+                    ['Scikit-Learn', 20]                    
+                ]
+            },{
                 name: 'Javascript',
                 id: 'Javascript',
                 data: [
