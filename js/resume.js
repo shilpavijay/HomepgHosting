@@ -69,10 +69,11 @@ $(function () {
                 id: 'Analytics/AI/ML',
                 data: [
                     ['Octave', 20],
-                    ['Numpy', 15],
-                    ['Scipy', 15],
-                    ['NLTK', 30],
-                    ['Scikit-Learn', 20]                    
+                    ['Pandas', 25],
+                    ['Numpy', 10],
+                    ['Scipy', 10],
+                    ['NLTK', 25],
+                    ['Scikit-Learn', 10]                    
                 ]
             },{
                 name: 'Javascript',
