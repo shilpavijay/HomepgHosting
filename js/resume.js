@@ -27,33 +27,25 @@ $(function () {
             name: 'Expertise',
             colorByPoint: true,
             data: [{
-                name: 'Python Frameworks',
+                name: 'Python and Web Development',
                 y: 30,
                 drilldown: 'Python'
             },{
-                name: 'Analytics/AI/ML',
-                y: 20,
-                drilldown: 'Analytics/AI/ML'
+                name: 'Machine Learning, Analytics and AI',
+                y: 25,
+                drilldown: 'ML/AI/DA'
             },{
-                name: 'Javascript',
+                name: 'Javascript and Frameworks',
                 y: 20,
                 drilldown: 'Javascript'
             }, {
-                name: 'HTML',
-                y: 5,
-                drilldown: null
-            }, {
-                name: 'CSS',
-                y: 5,
-                            drilldown: null
-            },{
                 name: 'Databases',
                 y: 20,
-                            drilldown: 'Databases'
+                drilldown: 'Databases'
             },{
                 name: 'Misc',
-                y: 5,
-                            drilldown: 'Misc'
+                y: 10,
+                drilldown: 'Misc'
             }]
         }],
         drilldown: {
@@ -61,12 +53,14 @@ $(function () {
                 name: 'Python',
                 id: 'Python',
                 data: [
-                    ['Django', 60],
-                    ['Flask', 40]
+                    ['Django', 30],
+                    ['Flask', 25],
+                    ['HTML',25],
+                    ['CSS',20]
                 ]
             },{
-                name: 'Analytics/AI/ML',
-                id: 'Analytics/AI/ML',
+                name: 'ML/AI/DA',
+                id: 'ML/AI/DA',
                 data: [
                     ['Octave', 20],
                     ['Pandas', 25],
@@ -98,12 +92,12 @@ $(function () {
                 data: [
                     ['Git', 20],
                     ['SVN', 10],
-                    ['AWS', 18],
+                    ['AWS', 10],
                     ['Fabric',18],
                     ['nosetest', 10],
                     ['unittest', 5],
                     ['Lettuce', 10],
-                    ['Bash', 10]
+                    ['Bash', 18]
                 ]
             }]
         }
