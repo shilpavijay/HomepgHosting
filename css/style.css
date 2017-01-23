@@ -414,7 +414,8 @@ h2.resp-accordion {
 /* Anchor will cover the whole item by default */
 
 .grid img {
-	max-width: none;
+	max-width: 360px;
+    height: 240px
 	width: 100%;
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
