@@ -1110,5 +1110,9 @@ h3.title {
     font-size: 0.9em;
 }
 
+.accomplishment {
+    font-family: 'Amatic SC', cursive;
+}
+
 }
 /*--//responsive-design---*/

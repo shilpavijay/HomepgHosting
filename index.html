@@ -1,9 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--mobile apps-->
+
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+<!--//web-fonts-->
+
 <!--Custom Theme files-->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
@@ -23,10 +25,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--js-->
 <script src="js/jquery-1.11.1.min.js"></script> 
 <!-- //js -->
-<!--web-fonts-->
-<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<!--//web-fonts-->
+
+
+
 <!--start-smooth-scrolling-->
 
 <script type="text/javascript" src="js/move-top.js"></script>
@@ -125,10 +126,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	
 	<!--//top-nav-->
 	<!--about-->
+	
 	<div id="about" class="about">
 		<div class="container">
 			<h3 class="title"> About Me</h3>
-			<div class="about-left">
+			<div class="row">
+			<div class="col-md-8 about-left">
 				<p>Hi, I am a Computer Science Graduate from <b>Visveswaraya Technological University, Karnataka </b>working as a Software Developer since 6 years. Love solving problems and coding in <b> Python.</b> I like learning new Technologies and languages.
 				Passionate about <b>Bioinformatics, Data Analytics and Machine Learning. </b></p>
 				<br/>
@@ -139,24 +142,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<li><b>Youth for Seva</b> Volunteer since 2013</li>
 				<li>Volunteer for <b>Rang De</b> since 2015</li>
 				<li>Member of <b>CSR commitee and Green Team</b> at my Organization</li>
-				</p>
-
-				
+				</p>				
 			</div>
-			<!-- <div class="col-md-4 about-right">
+
+			<div class="col-md-4 about-right">
 				<ul>
-					<h5>Awards</h5>
-					<li><span class="glyphicon glyphicon-menu-right"></span> Lorem ipsum dolor sit amet cingelit</li>
-					<li><span class="glyphicon glyphicon-menu-right"></span> Curabitur id metus rutrum convallis</li>
-					<li><span class="glyphicon glyphicon-menu-right"></span> Morbi dictum velit vitae porttitor</li>
+					<h5>Accomplishments</h5>
+					<li class="accomplishment"><span class="glyphicon glyphicon-menu-right"></span> <b> Machine Learning by Stanford University on Coursera. <br/>Grade Achieved: 100%. </b><br/>
+					<a href="https://www.coursera.org/account/accomplishments/certificate/8KZ7HTZ5YKGW">Link to course certificate </a></li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> <b>Wells Fargo - Achieving Excellence Award </b>2016 - Q1 for "Delivering and building relationships with Partners"</li>
+					<!-- <li><span class="glyphicon glyphicon-menu-right"></span> Morbi dictum velit vitae porttitor</li>
 					<li><span class="glyphicon glyphicon-menu-right"></span> Fusce at metus id justo ullamcorper</li>
-					<li><span class="glyphicon glyphicon-menu-right"></span> Aliquam ac nisl id justo malesuada </li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Aliquam ac nisl id justo malesuada </li> -->
 				</ul>
 				<div class="clearfix"> </div>
-			</div> -->
+			</div>
+	<!-- 	</div> -->
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+	<br />
+	<br />
 	<!--//about-->
 	<!--work-experience-->
 	<div id="work" class="work">
@@ -286,6 +292,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 								</div>
 
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/shilpavijay/Machine-Learning-in-Octave">
+											<img src="images/ml.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span>Machine Learning</span></h3>
+												<p>Machine Learning concepts and algorithms implemented in  Octave </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+
+								<!-- <div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/shilpavijay/Pandas-and-Data-Analytics">
+											<img src="images/da.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span>Data Analytics</span></h3>
+												<p> Python Essentials for Data Analysis - Pandas, Numpy, Matplotlib </p>
+											</div>
+										</a>	
+									</div>
+								</div> -->
+
 								<div class="clearfix"> </div>
 							</div>
 						</div>
@@ -372,6 +402,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 								</div>
 
+
+							<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/shilpavijay/Machine-Learning-in-Octave">
+											<img src="images/ml.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span>Machine Learning</span></h3>
+												<p>Machine Learning concepts and algorithms implemented in  Octave </p>
+											</div>
+										</a>	
+									</div>
+								</div>
+
+								<!-- <div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="https://github.com/shilpavijay/Pandas-and-Data-Analytics">
+											<img src="images/da.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3><span>Data Analytics</span></h3>
+												<p> Python Essentials for Data Analysis - Pandas, Numpy, Matplotlib </p>
+											</div>
+										</a>	
+									</div>
+								</div>	 -->
+
 							</div>
 						</div>
 
@@ -409,6 +464,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div id="education" class="education">
 		<div class="container">
 			<h3 class="title">Education</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>Machine Learning by Stanford University - 2017</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5> Coursera <span class="glyphicon glyphicon-education"></span></h5>
+					<p> Accomplished with Grade of 100% </p>
+					<p><a href="https://www.coursera.org/account/accomplishments/certificate/8KZ7HTZ5YKGW">View Course Certificate</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
 			<div class="work-info"> 
 				<div class="col-md-6 work-left"> 
 					<h4>Bachelor's Degree - 2010</h4>
