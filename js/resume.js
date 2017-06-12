@@ -81,10 +81,11 @@ $(function () {
                 name: 'Databases',
                 id: 'Databases',
                 data: [
-                    ['MySQL', 20],
-                    ['PostgreSQL', 30],
+                    ['MySQL', 30],
+                    ['PostgreSQL', 20],
                     ['Oracle', 30],
-                    ['MongoDB', 20]
+                    ['MongoDB', 5],
+                    ['Cassandra', 15],
                 ]
             }, {
                 name: 'Misc',
