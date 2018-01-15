@@ -73,9 +73,11 @@ $(function () {
                 name: 'Javascript',
                 id: 'Javascript',
                 data: [
-                    ['Jquery', 40],
-                    ['AngularJS', 30],
-                    ['Plain/Vanilla-JS', 30]                    
+                    ['Jquery', 30],
+                    ['AngularJS', 10],
+                    ['Plain/Vanilla-JS', 20],
+                    ['Vue', 20],
+                    ['D3', 20]                    
                 ]
             }, {
                 name: 'Databases',
@@ -92,13 +94,12 @@ $(function () {
                 id: 'Misc',
                 data: [
                     ['Git', 20],
-                    ['SVN', 10],
+                    ['SVN', 20],
                     ['AWS', 10],
-                    ['Fabric',18],
-                    ['nosetest', 10],
-                    ['unittest', 5],
-                    ['Lettuce', 10],
-                    ['Bash', 18]
+                    ['Fabric',10],
+                    ['Tableau', 20],
+                    ['Lettuce', 5],
+                    ['Bash', 15]
                 ]
             }]
         }
